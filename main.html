@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusMart - RUET's Online Marketplace</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #000000, #434343);
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(180deg, #000000, #434343);
+            color: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+        header nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #ff4500;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(180deg, #000000, #434343);
+        }
+        .hero h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .accent {
+            color: #ff4500;
+        }
+        .qr-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .qr-section img {
+            width: 200px;
+            height: 200px;
+        }
+        .qr-section p {
+            font-size: 1.5em;
+            color: #ff4500;
+            margin-top: 10px;
+        }
+        footer {
+            background: linear-gradient(180deg, #000000, #434343);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><span class="accent">Campus</span>Mart</h1>
+        </div>
+        <nav>
+            <a href="#">Marketplace</a>
+            <a href="#">About Us</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <h1>Welcome to <span class="accent">CampusMart</span></h1>
+        <p>Your go-to online marketplace exclusively for RUET students. 
+           Buy, sell, and explore items within the RUET community.</p>
+    </main>
+
+    <section class="qr-section">
+        <a href="https://www.youtube.com/watch?v=q-Y0bnx6Ndw">
+            <img src="qr.png" alt="QR Code">
+        </a>
+        <p>SURPRISE!!!</p>
+    </section>
+
+    <footer>
+        <p>&copy; <span class="accent">CampusMart</span> Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
